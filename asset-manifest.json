@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pokemon-matching-pairs/static/css/main.78dbfda5.chunk.css",
+    "main.js": "/pokemon-matching-pairs/static/js/main.b9ada938.chunk.js",
+    "main.js.map": "/pokemon-matching-pairs/static/js/main.b9ada938.chunk.js.map",
+    "runtime-main.js": "/pokemon-matching-pairs/static/js/runtime-main.a1e34658.js",
+    "runtime-main.js.map": "/pokemon-matching-pairs/static/js/runtime-main.a1e34658.js.map",
+    "static/js/2.df9b3052.chunk.js": "/pokemon-matching-pairs/static/js/2.df9b3052.chunk.js",
+    "static/js/2.df9b3052.chunk.js.map": "/pokemon-matching-pairs/static/js/2.df9b3052.chunk.js.map",
+    "index.html": "/pokemon-matching-pairs/index.html",
+    "static/css/main.78dbfda5.chunk.css.map": "/pokemon-matching-pairs/static/css/main.78dbfda5.chunk.css.map",
+    "static/js/2.df9b3052.chunk.js.LICENSE.txt": "/pokemon-matching-pairs/static/js/2.df9b3052.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1e34658.js",
+    "static/js/2.df9b3052.chunk.js",
+    "static/css/main.78dbfda5.chunk.css",
+    "static/js/main.b9ada938.chunk.js"
+  ]
+}

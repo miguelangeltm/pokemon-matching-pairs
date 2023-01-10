@@ -1,0 +1,62 @@
+.scene {
+    width: 150px;
+    height: 150px;
+    perspective: 200px;
+    
+    
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+   
+    
+  }
+
+  .card__face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+  }
+
+  .card__face--front {
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+  }
+  
+  .card__face--back {
+    background: rgba(255,255,255,0.5);
+    transform: rotateY( 180deg );
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+  }
+
+  .card.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  .backcover{
+    position: absolute;
+    background: rgb(40, 223, 247);;
+    width: 120px;
+    height: 120px;
+    top: 15px;
+    left: 15px;
+    border-radius: 5px;
+  }
+
+  .pokemon{
+    position:absolute;
+    width: 120px;
+    height: 120px;
+    top: 15px;
+    left: 15px;
+    border-radius: 5px;
+    background: rgba(247, 40, 40, 0.5);
+  }
